@@ -1,4 +1,4 @@
-stage(start){
+stage('start'){
   node {
     echo 'Hello World'
     sh 'echo "Hello World" > hello.txt'
